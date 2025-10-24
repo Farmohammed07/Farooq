@@ -15,7 +15,7 @@ function App() {
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand text-success fw-semibold'>
-              React Restaurant
+              Flavour E Azam
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -37,9 +37,9 @@ function App() {
         <Route path='/contact' element={<Contact />} />
       </Routes>
 
-      <footer className='bg-body-tertiary'>
-        <p className='p-3 m-0 text-center'>copyright @ made by Ionut Cora</p>
-      </footer>
+      {/* <footer className='bg-body-tertiary'>
+        <p className='p-3 m-0 text-center'>copyright @ made by Farooq</p>
+      </footer> */}
     </div>
   );
 }
