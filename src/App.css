@@ -23,6 +23,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.hover-blue:hover {
+  color: rgb(25 135 84) !important;
+}
+
 
 .App-link {
   color: #61dafb;
